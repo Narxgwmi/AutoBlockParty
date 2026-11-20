@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "autoblockparty",
+  "version": "${version}",
+  "name": "AutoBlockParty",
+  "description": "Automatically walks to the nearest matching floor block in Block Party using simulated movement keys.",
+  "authors": [
+    "AutoBlockParty"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.autoblockparty.AutoBlockPartyClient"
+    ],
+    "modmenu": [
+      "com.autoblockparty.compat.ModMenuIntegration"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21.4",
+    "fabric-api": ">=0.119.4"
+  },
+  "suggests": {
+    "cloth-config": ">=17.0.0",
+    "modmenu": ">=13.0.0"
+  }
+}

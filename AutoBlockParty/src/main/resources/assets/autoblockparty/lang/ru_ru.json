@@ -1,0 +1,41 @@
+{
+  "category.autoblockparty.main": "AutoBlockParty",
+  "key.autoblockparty.toggle": "Переключить AutoBlockParty",
+  "key.autoblockparty.settings": "Открыть настройки",
+
+  "title.autoblockparty.config": "Настройки AutoBlockParty",
+  "text.autoblockparty.missingClothConfig": "Для отображения экрана настроек требуется Cloth Config API. Установите Cloth Config или отредактируйте config/autoblockparty.json вручную.",
+
+  "category.autoblockparty.movement": "Движение",
+  "category.autoblockparty.general": "Общие",
+
+  "option.autoblockparty.sprint": "Бег",
+  "tooltip.autoblockparty.sprint": "Включать спринт к целевому блоку при движении вперёд и дистанции больше минимальной.",
+
+  "option.autoblockparty.sprintMinDistance": "Мин. дистанция спринта",
+  "tooltip.autoblockparty.sprintMinDistance": "Минимальная горизонтальная дистанция (в блоках) для начала спринта (1.0 - 10.0).",
+
+  "option.autoblockparty.autoJump": "Автопрыжок",
+  "tooltip.autoblockparty.autoJump": "Автоматически прыгать при горизонтальном столкновении с препятствием на земле.",
+
+  "option.autoblockparty.bunnyHop": "Распрыжка (Bunny Hop)",
+  "tooltip.autoblockparty.bunnyHop": "Непрерывно прыгать во время спринта при расстоянии до цели больше 5 блоков.",
+
+  "option.autoblockparty.deadzone": "Мёртвая зона движения",
+  "tooltip.autoblockparty.deadzone": "Порог осей движения вперёд/вбок перед нажатием клавиш WASD (0.05 - 0.50).",
+
+  "option.autoblockparty.enabledOnStart": "Включено при старте",
+  "tooltip.autoblockparty.enabledOnStart": "Запускать мод во включённом состоянии.",
+
+  "option.autoblockparty.scanRadius": "Радиус поиска",
+  "tooltip.autoblockparty.scanRadius": "Квадратный радиус поиска по слою пола вокруг игрока (5 - 50 блоков).",
+
+  "option.autoblockparty.searchIntervalTicks": "Интервал поиска (тики)",
+  "tooltip.autoblockparty.searchIntervalTicks": "Интервал в тиках между поисками цели при отсутствии текущей цели (1 - 20).",
+
+  "option.autoblockparty.showActionbarMessages": "Сообщения в экшенбаре",
+  "tooltip.autoblockparty.showActionbarMessages": "Показывать статус AutoBlockParty: ON/OFF в экшенбаре при переключении.",
+
+  "option.autoblockparty.debug": "Отладочные логи",
+  "tooltip.autoblockparty.debug": "Выводить информацию о движении и поиске цели в консоль клиента."
+}
