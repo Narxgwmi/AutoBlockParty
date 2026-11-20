@@ -1,6 +1,5 @@
 package com.autoblockparty;
 
-import com.autoblockparty.compat.ModMenuIntegration;
 import com.autoblockparty.config.AutoBlockPartyConfig;
 import com.autoblockparty.movement.BlockPartyMover;
 import net.fabricmc.api.ClientModInitializer;
@@ -44,8 +43,8 @@ public class AutoBlockPartyClient implements ClientModInitializer {
             }
 
             while (settingsKey.wasPressed()) {
-                if (client.currentScreen == null) {
-                    client.setScreen(ModMenuIntegration.createConfigScreenSafe(null));
+                if (client.player != null) {
+                    config.save();
                 }
             }
 
